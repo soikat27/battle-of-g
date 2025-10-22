@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://bxsgnridxsi3w"]
+[gd_scene load_steps=6 format=3 uid="uid://bxsgnridxsi3w"]
 
 [ext_resource type="Texture2D" uid="uid://ch57b46218jva" path="res://graphics/tileset/tilemap.png" id="1_1pm3m"]
 [ext_resource type="PackedScene" uid="uid://dvjdvy5w8tip4" path="res://scenes/player/player.tscn" id="1_ji4ch"]
+[ext_resource type="PackedScene" uid="uid://crehtm3cppmc8" path="res://scenes/block/block_1.tscn" id="9_xktef"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cfubq"]
 resource_name = "brown_ground"
@@ -177,3 +178,53 @@ layer_0/tile_data = PackedInt32Array(-655332, 0, 4, -589796, 0, 4, -524260, 0, 4
 [node name="player" parent="." instance=ExtResource("1_ji4ch")]
 position = Vector2(1184, 318)
 scale = Vector2(0.99, 0.99)
+
+[node name="blocks" type="Node2D" parent="."]
+
+[node name="block_1" parent="blocks" instance=ExtResource("9_xktef")]
+position = Vector2(1141, 224)
+
+[node name="block_2" parent="blocks" instance=ExtResource("9_xktef")]
+position = Vector2(778, 630)
+
+[node name="block_3" parent="blocks" instance=ExtResource("9_xktef")]
+position = Vector2(862, 527)
+
+[node name="block_4" parent="blocks" instance=ExtResource("9_xktef")]
+position = Vector2(783, 420)
+
+[node name="block_5" parent="blocks" instance=ExtResource("9_xktef")]
+position = Vector2(856, 316)
+
+[node name="block_6" parent="blocks" instance=ExtResource("9_xktef")]
+position = Vector2(842, 187)
+
+[node name="block_7" parent="blocks" instance=ExtResource("9_xktef")]
+position = Vector2(967, 226)
+
+[node name="block_8" parent="blocks" instance=ExtResource("9_xktef")]
+position = Vector2(1058, 167)
+
+[node name="block_9" parent="blocks" instance=ExtResource("9_xktef")]
+position = Vector2(856, 839)
+
+[node name="block_10" parent="blocks" instance=ExtResource("9_xktef")]
+position = Vector2(857, 723)
+
+[node name="block_11" parent="blocks" instance=ExtResource("9_xktef")]
+position = Vector2(1103, 842)
+
+[node name="block_12" parent="blocks" instance=ExtResource("9_xktef")]
+position = Vector2(986, 785)
+
+[node name="block_13" parent="blocks" instance=ExtResource("9_xktef")]
+position = Vector2(1152, 532)
+
+[node name="block_14" parent="blocks" instance=ExtResource("9_xktef")]
+position = Vector2(1013, 567)
+
+[node name="block_15" parent="blocks" instance=ExtResource("9_xktef")]
+position = Vector2(1224, 639)
+
+[node name="block_16" parent="blocks" instance=ExtResource("9_xktef")]
+position = Vector2(1163, 754)

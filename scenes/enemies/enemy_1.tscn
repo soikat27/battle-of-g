@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dx67fu6gu1h72"]
+
+[ext_resource type="Texture2D" uid="uid://pwtiqv41oqi" path="res://graphics/enemy/tile_0108.png" id="1_lj8jo"]
+[ext_resource type="Script" uid="uid://c5yqd46xs2h2l" path="res://scenes/enemies/enemy_1.gd" id="1_lsxte"]
+
+[node name="enemy_1" type="CharacterBody2D"]
+rotation = 1.5707964
+script = ExtResource("1_lsxte")
+
+[node name="image" type="Sprite2D" parent="."]
+texture = ExtResource("1_lj8jo")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+light_mask = 2
+visibility_layer = 15
+polygon = PackedVector2Array(-2, -4, 2, -4, 2, -3, 4, -3, 4, 0, 5, 0, 5, 1, 6, 1, 6, 5, 4, 5, 4, 6, 2, 6, 2, 7, -2, 7, -2, 6, -4, 6, -4, 5, -6, 5, -6, 2, -5, 2, -5, 0, -4, 0, -4, -3, -2, -3)

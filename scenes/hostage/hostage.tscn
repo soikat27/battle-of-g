@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://8jao25xbyt54"]
+
+[ext_resource type="Texture2D" uid="uid://dca40ww4yfgr2" path="res://graphics/hostage/tile_0085.png" id="1_g3pbs"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pqwij"]
+size = Vector2(10, 14)
+
+[node name="hostage" type="Area2D"]
+
+[node name="image" type="Sprite2D" parent="."]
+texture = ExtResource("1_g3pbs")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_pqwij")

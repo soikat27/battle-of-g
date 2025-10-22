@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://bx4is28a70i55"]
+
+[ext_resource type="Texture2D" uid="uid://dtdfmyvirc8et" path="res://graphics/enemy/tile_0109.png" id="1_hqy2m"]
+
+[node name="enemy_2" type="CharacterBody2D"]
+rotation = 1.5707964
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_hqy2m")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+light_mask = 2
+visibility_layer = 15
+position = Vector2(0.46405563, -0.5274814)
+polygon = PackedVector2Array(-3.4640555, -6.4725184, 3.5359445, -6.4725184, 3.5359445, -6.4725184, 3.5359445, -5.4725184, 4.5359445, -4.4725184, 4.5359445, -0.47251862, 4.5359445, 0.5274814, 5.5359445, 0.5274814, 5.5359445, 1.5274813, 6.5359445, 1.5274813, 6.5359445, 7.5274816, 3.5359445, 7.5274816, 3.5359445, 8.527481, -3.4640555, 8.527481, -3.4640555, 7.5274816, -7.4640555, 7.5274816, -7.4640555, 1.5274813, -6.4640555, 1.5274813, -6.4640555, -0.47251862, -5.4640555, -0.47251862, -5.4640555, -4.4725184, -4.4640555, -4.4725184)
