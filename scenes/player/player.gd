@@ -17,3 +17,6 @@ func _process(_delta) -> void:
 	# set velocity and move
 	velocity = dir * speed
 	move_and_slide()
+
+func _ready():
+	add_to_group("player")

@@ -228,3 +228,7 @@ position = Vector2(1224, 639)
 
 [node name="block_16" parent="blocks" instance=ExtResource("9_xktef")]
 position = Vector2(1163, 754)
+
+[node name="ScoreLabel" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
