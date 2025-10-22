@@ -1,0 +1,9 @@
+res://scenes/levels/levels.tscn
+res://scripts/global.gd
+res://scenes/enemies/enemy_1.gd
+res://scenes/player/player.gd
+res://scenes/player/player.tscn
+res://scenes/ui/score_ui.tscn
+res://scenes/ui/Score_Label.gd
+res://scenes/hostage/hostage.tscn
+res://scenes/hostage/hostage.gd
